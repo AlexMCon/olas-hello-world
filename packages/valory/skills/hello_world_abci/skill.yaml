@@ -8,11 +8,11 @@ aea_version: '>=1.0.0, <2.0.0'
 fingerprint:
   README.md: bafybeidrjtykhovnccj3sovugdn4r3tszuzv7h37vta6o35epi5qfzdpke
   __init__.py: bafybeibiblks3d3s3ditug4hfzl3ob3cibokcz4ofs7cbbsbqw5zzbtd3m
-  behaviours.py: bafybeiaai23italbrtlgpl7ie4pelhtrm6uqn773qap6jl5h4mj7fd553e
+  behaviours.py: bafybeiehz77gb3q4qbnrpeunprbin7b2ed2ypnpn2wuusfpotmatduvlga
   dialogues.py: bafybeigabhaykiyzbluu4mk6bbrmqhzld2kyp32pg24bvjmzrrb74einwm
   fsm_specification.yaml: bafybeibsjhlpuigtbmtcusv4qrtebal23ylv2sulj6dolvln6fwlkjp23a
   handlers.py: bafybeieyq37quymqq6md3hi5bvynifnkx73bcvmzct6difyvdkbzj6abaq
-  models.py: bafybeifyc3dezez4wbyexuy7q4do2xwlfrvtcvwsxgvg5cldeyvyi6ofju
+  models.py: bafybeicllfze5jkojemgxezcyywbypj5fyldgdvu5kbvf6tdtbs3675nhy
   payloads.py: bafybeiajaxhepvqsznhgadw24w4zumfpxcqysv7y4mdsnh5awvtvirpb3q
   rounds.py: bafybeidxkjo6us24fj46fwfxopbbd3njystt4nuqmgpvrmigestr36tkou
   tests/__init__.py: bafybeibpuwe63mjjwnaanx7wdw63reh6qa5xdtjxdf75o3nksvjercte4y
@@ -129,6 +129,7 @@ models:
       slash_threshold_amount: 10000000000000000
       light_slash_unit_amount: 5000000000000000
       serious_slash_unit_amount: 8000000000000000
+      owner_address: ${str:0x000}
     class_name: HelloWorldParams
   randomness_api:
     args:
