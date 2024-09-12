@@ -42,6 +42,12 @@ class PrintMessagePayload(BaseTxPayload):
     """Represent a transaction payload of type 'randomness'."""
 
     message: str
+    
+@dataclass(frozen=True)
+class PrintMessageCountPayload(BaseTxPayload):
+    """Represent the count of print message round."""
+
+    count: int
 
 
 @dataclass(frozen=True)
